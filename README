@@ -1,7 +1,9 @@
-get_emails
+# Extract Email Addresses from Webpages and Text Files
+
 ==========
 
-# Extract Email Addresses from Webpages and Text Files
+
+The function get_emails_text scraps text files for email addresses within the R environment. The funcion get_emails_webpage retrieves the email addresses listed in webpages that include email hyperlinks (if email.href=T) or the full body of the document (if email.href=F). The function get_emails_webpage takes one or multiple vectors of URLs and returns a vector with the emails found in the document (if return.df=F) or a data frame with the original URL(s) followed by emails on that page separated by columns (if return.df=T). The default arguments are return.df=F and email.href=F.
 
 --------------
 
