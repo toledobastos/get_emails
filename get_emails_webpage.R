@@ -17,6 +17,7 @@ get_emails_webpage <- function(urls, return.df=F, email.href=F) {
         } else {
             web.temp <- try(as.character(xpathSApply(htmlParse(urls[i]), "//a/@href")))
             emails[[i]] <- try(as.list(gsub("mailto:", "", web.temp[grep("mailto:", web.temp)])))
+            cat(".")
         }
     }
     if(return.df==T) {
