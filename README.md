@@ -3,7 +3,7 @@ get_emails
 
 # Extract Email Addresses from Webpages and Text Files
 
-# Author: Maro T. Bastos
+# Author: Marco T. Bastos
 # Date: 2014-10-08
 # Modified: 2011-10-08
 # Description: Extracts all email addresses from webpages and text files
